@@ -12,9 +12,9 @@ This template uses [uv](https://docs.astral.sh/uv/) to set up a virtual environm
 
 ## Doing leetcode problems
 
-Python is the lingua franca of programming interviews, so this template focuses on a Python.  Generally you don't really want to use any external libraries in interviews, so those are not included here.
+Python is the lingua franca of programming interviews, so this template uses that!  Generally you don't want to use any external libraries in interviews, so those are not included here.  If you do want/need an external library, you can add it to `pyrpoject.toml` or use `uv add`.
 
-When solving problems, it helps to be able to add a thought process at the start!  This helps when you want to revisit it in the future, whether that is in a few weeks or in a few years.  A simple comment block helps.
+When solving problems, it helps to add a thought process at the start!  Even a simple comment block helps when revisiting the problem in a few weeks or few years.
 
 I prefer to name the problems with the number and the difficulty level so they are easy to sort and find, e.g. `0001_E_two_sum.py`.  Shockingly there are over 3,000 leetcode problems at the time of this writing, so I use 4 digits and 0-pad the file name.
 

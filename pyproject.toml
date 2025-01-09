@@ -1,15 +1,13 @@
 [project]
 name = "leetcode-template"
-version = "0.1.0"
-description = "Add your description here"
+version = "1.0.0"
+description = "Template for local leetcode problem solving"
 readme = "README.md"
 requires-python = ">=3.11"
 dependencies = []
 
 [dependency-groups]
-dev = [
-    "pytest>=8.3.4",
-]
+dev = ["pytest>=8.3.4"]
 
 [tool.pytest.ini_options]
 pythonpath = ["."]
